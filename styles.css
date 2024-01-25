@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  text-align: center;
+  background-color: #1f2937;
+}
+
+.input-field {
+  display: block;
+  margin: 0 auto;
+  width: 550px;
+  height: 285px;
+  background-color: #6943ff;
+  color: white;
+}
+
+#title {
+  padding-top: 33px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#input {
+  display: block;
+  margin: 0 auto;
+  width: 117px;
+  height: 83px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-size: 58px;
+  font-weight: ExtraBold;
+  margin-top: 30px;
+}
+
+#input::-webkit-outer-spin-button,
+#input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#input:focus {
+  outline: none;
+}
+
+#convert-btn {
+  margin-top: 25px;
+  width: 117px;
+  height: 42px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#convert-btn:hover {
+  cursor: pointer;
+}
+
+.output-field {
+  height: 444px;
+  width: 550px;
+  display: block;
+  margin: 0 auto;
+}
+
+.field {
+  height: 108px;
+  width: 500px;
+  background-color: #273549;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.field h3 {
+  padding-top: 31px;
+  color: #ccc1ff;
+}
+
+.field p {
+  color: white;
+}
